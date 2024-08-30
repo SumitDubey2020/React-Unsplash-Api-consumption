@@ -1,0 +1,45 @@
+.form-container{
+    max-width:400px;
+    width:100%;
+
+}
+.login-container{
+    background: url('../../assets/loginPageBackgroundImage.jpg');
+    background-size: cover;
+    background-position: center;
+    width:100vw;
+    height:100vh;
+  }
+.form-container input{
+    padding: 5px;
+    border-radius: 7px;
+    width: 100%;
+    font-size: 20px;
+    border: none;
+    outline-color: #dcdcde;
+    line-height: 2.5rem;
+}
+.login-form{
+    backdrop-filter: blur(5px) saturate(141%);
+    -webkit-backdrop-filter: blur(5px) saturate(141%);
+    background-color: rgba(255, 255, 255, 0.07);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+    padding:50px;
+}
+.form-submit{
+    background-color: #ff5656;
+    color: #fff;
+    padding: 10px 50px;
+    width:100%;
+}
+.form-submit:hover {
+    border-color: #f6a0a9;
+    background-color: #f33939;
+}
+.register_btn{
+    background-color: #F77D24;
+    color: #fff;
+    padding: 10px 50px;
+    width:100%;
+}
